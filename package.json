@@ -2,10 +2,10 @@
   "name": "bloccit",
   "version": "1.0.0",
   "description": "A Reddit-like application for users to discuss and share content",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "export NODE_ENV=test && jasmine",
-    "start": "node src/server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "request": "^2.83.0"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.2"
   }
 }
